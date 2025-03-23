@@ -7,7 +7,7 @@
     "@types/bun": "latest"
   },
   "scripts": {
-    "start": "bun run src/index.ts"
+    "start": "bun run --hot ./src/index.tsx"
   },
   "dependencies": {
     "hono": "4.7.5"
